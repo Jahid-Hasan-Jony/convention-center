@@ -3,4 +3,7 @@
 *{font-family: 'Poppins', sans-serif;}
 
 body{}
+.carousel-item img{height: 80vh;}
+.card{border: none;}
 
+.focus-card{border-radius: 8%;}
