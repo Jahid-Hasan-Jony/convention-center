@@ -1,22 +1,51 @@
+/*-----------------------------
+import font from font awesome 
+-------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Yeseva+One&display=swap');
 
 *{font-family: 'Poppins', sans-serif;}
 
-body{}
+/*-----------------------------
+slider image sizing 
+-------------------------------*/
 .carousel-item img{height: 80vh;}
-.cards{width: 250px;}
 
+/*-----------------------------
+Toast Border Design
+-------------------------------*/
+.toast-body{border-left: 10px solid cornflowerblue;}
+
+/*-----------------------------
+Cards Design 
+-------------------------------*/
+.cards{width: 250px;}
 .focus-card{border-radius: 40px;
-            background-color: bisque;
-            width: 260px;}
+            background-color: white;
+            width: 260px;
+            border: 0.1px solid gray;}
+
+/*-----------------------------
+Badge Design 
+-------------------------------*/
 .badge{position: relative;
        top: 15px;
        right: -170px;}
+
+/*-----------------------------
+According Design
+-------------------------------*/
 .accordion-item{border:1px solid gray !important;}
+
 .accordion-button:not(.collapsed) {
      background-color: white;
      box-shadow: unset;}
-.contact-area img{transform: rotateY(180deg);
-     }
 
+/*-----------------------------
+Contact form image reverse 
+-------------------------------*/
+.contact-area img{transform: rotateY(180deg);}
+
+/*-----------------------------
+footer Design 
+-------------------------------*/
 footer .row{min-height: 25vh;}
