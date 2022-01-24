@@ -53,6 +53,6 @@ footer .row{min-height: 25vh;}
 /*-----------------------------------
 slider image sizing for small device
 -------------------------------------*/
-@media only screen and (max-width: 688px) { 
+@media only screen and (max-width: 767px) { 
      .carousel-item img{height: 60vh;} 
 }
