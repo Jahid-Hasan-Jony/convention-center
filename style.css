@@ -4,6 +4,19 @@
 
 body{}
 .carousel-item img{height: 80vh;}
-.card{border: none;}
+.cards{width: 250px;}
 
-.focus-card{border-radius: 8%;}
+.focus-card{border-radius: 40px;
+            background-color: bisque;
+            width: 260px;}
+.badge{position: relative;
+       top: 15px;
+       right: -170px;}
+.accordion-item{border:1px solid gray !important;}
+.accordion-button:not(.collapsed) {
+     background-color: white;
+     box-shadow: unset;}
+.contact-area img{transform: rotateY(180deg);
+     }
+
+footer .row{min-height: 25vh;}
